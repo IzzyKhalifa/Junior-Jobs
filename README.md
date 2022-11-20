@@ -5,6 +5,10 @@ Junior jobs is a full stack application that will allow the user to create a pro
 
 
 
+
+
+
+
 ## ACCEPTANCE CRITERIA
 - Use Node.js and Express.js to create a RESTful API.
 - Use Handlebars.js as the template engine.
