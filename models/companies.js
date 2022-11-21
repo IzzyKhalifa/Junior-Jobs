@@ -49,6 +49,6 @@ Company.init(
 // id: number
 // company_name: varchar(50)
 // profile_description:varChar(1000)
-// business_stream_id:number (foregn key)
+// business_stream_id:number (foreign key)
 // establishment_date:date
 // company_website:varchar(500)
