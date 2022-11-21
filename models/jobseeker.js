@@ -5,8 +5,11 @@ class JobSeeker extends Model {}
 
 JobSeeker.init(
     {
-        seeker_profile: {
-            type: DataTypes.STRING
+
+        id: {
+            type: DataTypes.INTEGER,
+            autoIncrement: true
+            
         },
 
         first_name: {
@@ -17,25 +20,26 @@ JobSeeker.init(
             type: DataTypes.STRING
         },
 
-        current_salary:{
-            type: DataTypes.INTEGER
-        },
-
-        is_annually_monthly: {
-            type: DataTypes.INTEGER
-        },
-
-        currency: {
+        Certificate: {
             type: DataTypes.STRING
-        }
+        },
 
+        linkedin: {
+            type: DataTypes.STRING
+        },
+
+        personal_Website: {
+            type: DataTypes.STRING
+        },
+
+
+    },
         {
             sequelize,
             timestamps: false,
             freezeTableName: true,
             underscored: true,
-            modelName: 'category',
+            modelName: 'jobseeker',
         }
 
-    }
 )

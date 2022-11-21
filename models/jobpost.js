@@ -9,6 +9,7 @@ Jobpost.init(
             type: DataTypes.INTEGER,
             allowNull: false,
             autoIncrement: true,
+            primaryKey: true,
         },
 
         posted_by_id: {
@@ -16,11 +17,11 @@ Jobpost.init(
             allowNull: false,
         },
 
-        job_type_id: {
+        job_description: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        company_id: {
+        company_name: {
             type: DataTypes.STRING,
            
         },
@@ -36,7 +37,7 @@ Jobpost.init(
             type: DataTypes.INTEGER
         },
         is_active: {
-            type: DataTypes.STRING
+            type: DataTypes.BOOLEAN
         }
 
 
