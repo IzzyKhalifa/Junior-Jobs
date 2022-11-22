@@ -1,9 +1,9 @@
 const { Model, DataTypes} = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Jobpost extends Model {}
+class Jobs extends Model {}
 
-Jobpost.init(
+Jobs.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -36,6 +36,7 @@ Jobpost.init(
         job_location_id: {
             type: DataTypes.INTEGER
         },
+        
         is_active: {
             type: DataTypes.BOOLEAN
         }

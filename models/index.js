@@ -5,7 +5,7 @@ module.exports = { User };
 // import models
 const companies = require('./companies');
 const jobseeker = require('./jobseeker');
-const jobpost = require('./jobpost');
+const jobpost = require('./job');
 
 
 // Products belongTo Category3
