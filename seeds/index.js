@@ -1,6 +1,6 @@
-const seedCompanies = require('./companies-seeds');
-const seedjobpost = require('./jobpost-seeds');
-const seedjobseekers = require('./jobseeker-seeds');
+const seedCompanies = require('./companies-seed');
+// const seedjobpost = require('./jobpost-seeds');
+// const seedjobseekers = require('./jobseeker-seeds');
 ;
 
 const sequelize = require('../config/connection');
@@ -11,11 +11,11 @@ const seedAll = async () => {
   await seedCompanies();
   console.log('\n----- CATEGORIES SEEDED -----\n');
 
-  await seedjobpost();
-  console.log('\n----- PRODUCTS SEEDED -----\n');
+//   await seedjobpost();
+//   console.log('\n----- PRODUCTS SEEDED -----\n');
 
-  await seedjobpost();
-  console.log('\n----- TAGS SEEDED -----\n');
+//   await seedjobpost();
+//   console.log('\n----- TAGS SEEDED -----\n');
 
   process.exit(0);
 };

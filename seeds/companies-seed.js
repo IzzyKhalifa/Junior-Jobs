@@ -1,34 +1,33 @@
 const { companies } = require('../models');
 
 const companiesData = [
-  {
-    id: 'bobsburgers',
-    company_name: BobsBurgers,
-    profile_description: multinational,
-    business_stream_id: xxxxxx,
-    establishment_date: xxxxxx,
-    company_website: www.BobsBurgers.com,
-  },
-
-  {
-    id: 'mountain goat',
-    company_name: mountain_goat,
-    profile_description: multinational,
-    business_stream_id: xxxxxx,
-    establishment_date: xxxxxx,
-    company_website: www.BobsBurgers.com,
-  },
   
   {
-    id: 'samsung',
-    company_name: samsung,
-    profile_description: multinational,
-    business_stream_id: xxxxxx,
-    establishment_date: xxxxxx,
-    company_website: www.BobsBurgers.com,
-  },
-  
+    
+    Company_name: "BobsBurgers",
+    Location: "Brisbane",
+    State: "QLD",
+    Sector: "Hospitality",
+    job_description: "developing the backend for bob so he can make more burgers.",
+    company_website: "www.BobsBurgers.com",
+    date_created: "",
+    is_active: true
 
+  },
+
+
+  {
+    
+    Company_name: "Carlton United brewery",
+    Location: "Melbourne",
+    State: 'VIC',
+    Sector: "Hospitality",
+    job_description: "developing the frontend and backend for beer.",
+    company_website: "www.CBU.com",
+    date_created: "22/11/2022",
+    is_active: true
+
+  },
 
 ];
 
