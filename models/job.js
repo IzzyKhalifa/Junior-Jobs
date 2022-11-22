@@ -10,31 +10,35 @@ Jobs.init(
             allowNull: false,
             autoIncrement: true,
             primaryKey: true,
+        
         },
 
-        posted_by_id: {
+        Company_name: {
             type: DataTypes.STRING,
             allowNull: false,
         },
 
-        job_description: {
+        City: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        company_name: {
+        State: {
             type: DataTypes.STRING,
+            allowNull: false,
            
         },
         date_created: {
             type: DataTypes.DATEONLY,
+            
 
         },
         job_description: {
             type: DataTypes.STRING,
-
         },
-        job_location_id: {
-            type: DataTypes.INTEGER
+
+        company_website: {
+            type: DataTypes.STRING,
+
         },
         
         is_active: {
