@@ -1,11 +1,10 @@
 const User = require('./User');
+const companies = require('./companies');
 
-module.exports = { User };
+module.exports = { User, companies};
 
 // import models
-const companies = require('./companies');
-const jobseeker = require('./jobseeker');
-const jobpost = require('./job');
+
 
 
 // // Products belongTo Category3
