@@ -8,7 +8,8 @@ JobSeeker.init(
 
         id: {
             type: DataTypes.INTEGER,
-            autoIncrement: true
+            autoIncrement: true,
+            primaryKey: true,
         },
 
         first_name: {

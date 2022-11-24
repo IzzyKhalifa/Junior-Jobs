@@ -1,7 +1,10 @@
 const User = require('./User');
 const companies = require('./companies');
+const job = require('./job');
+const jobseeker = require('./jobseeker')
 
-module.exports = { User, companies};
+
+module.exports = { User, companies, job, jobseeker};
 
 // import models
 
