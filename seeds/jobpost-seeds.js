@@ -1,4 +1,4 @@
-const { jobPost } = require('../models');
+const { Job } = require('../models');
 
 const jobPosts = [
 
@@ -15,6 +15,6 @@ const jobPosts = [
 
 ];
 
-const seedJobpost = () => jobPost.bulkCreate(jobPosts);
+const seedJobpost = () => Job.bulkCreate(jobPosts);
 
 module.exports = seedJobpost;
