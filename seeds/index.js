@@ -12,7 +12,7 @@ const seedAll = async () => {
   await seedCompanies();
   console.log('\n----- Companies SEEDED -----\n');
   await seedJobpost();
-  console.log('\n----- jobs SEEDED -----\n');
+  console.log('\n----- Jobs SEEDED -----\n');
   await seedJobseekers();
   console.log('\n----- jobseekers SEEDED ------\n');
   
