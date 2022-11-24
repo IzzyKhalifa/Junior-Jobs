@@ -1,10 +1,10 @@
-const { companies } = require('../models');
+const { Company } = require('../models');
 
 const companiesData = [
   
   {
     
-    Company_name: "BobsBurgers",
+    Company_name: 'BobsBurgers',
     Location: "Brisbane",
     State: "QLD",
     Sector: "Hospitality",
@@ -31,6 +31,6 @@ const companiesData = [
 
 ];
 
-const seedCompanies = () => companies.bulkCreate(companiesData);
+const seedCompanies = () => Company.bulkCreate(companiesData);
 
 module.exports = seedCompanies;
