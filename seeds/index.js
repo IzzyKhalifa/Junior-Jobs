@@ -1,7 +1,7 @@
 const seedCompanies = require('./companies-seed');
-// const seedjobpost = require('./jobpost-seeds');
-// const seedjobseekers = require('./jobseeker-seeds');
-;
+const seedjobpost = require('./jobpost-seeds');
+const seedjobseekers = require('./jobseeker-seeds');
+
 
 const sequelize = require('../config/connection');
 
