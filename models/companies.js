@@ -11,6 +11,11 @@ Company.init(
             autoIncrement: true,
         },
 
+        job_number: {
+            type: DataTypes.INTEGER,
+            
+        },
+
         company_name: {
             type: DataTypes.STRING,
             allowNull: false,
@@ -22,7 +27,7 @@ Company.init(
         },
         business_stream_id: {
             type: DataTypes.STRING,
-            
+
         },
         establishment_date: {
             type: DataTypes.DATEONLY,

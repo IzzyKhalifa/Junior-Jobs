@@ -28,7 +28,8 @@ Jobs.init(
            
         },
         date_created: {
-            type: DataTypes.DATEONLY,
+            type: DataTypes.DATE, 
+            defaultValue: DataTypes.NOW,
             
 
         },
