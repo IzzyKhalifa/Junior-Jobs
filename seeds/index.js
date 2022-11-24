@@ -11,12 +11,6 @@ const seedAll = async () => {
   await seedCompanies();
   console.log('\n----- CATEGORIES SEEDED -----\n');
 
-//   await seedjobpost();
-//   console.log('\n----- PRODUCTS SEEDED -----\n');
-
-//   await seedjobpost();
-//   console.log('\n----- TAGS SEEDED -----\n');
-
   process.exit(0);
 };
 
