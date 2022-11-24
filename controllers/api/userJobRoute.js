@@ -17,9 +17,7 @@ router.get("/", async (req, res) => {
 // GET one job
 router.get("/:id", async (req, res) => {
   try {
-    const jobData = await job.findByPk(req.params.id, {
-      include: [{ model: Job }],
-    });
+    const jobData = await Job.findByPk(req.params.id);
 
     if (!Job) {
       res.status(404).json({ message: "No job found with that id!" });
