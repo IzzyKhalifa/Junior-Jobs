@@ -9,6 +9,7 @@ Company.init(
             type: DataTypes.INTEGER,
             allowNull: false,
             autoIncrement: true,
+            primaryKey: true,
         },
 
         job_number: {
@@ -41,7 +42,7 @@ Company.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'category',
+        modelName: 'Company',
     }
 )
 
