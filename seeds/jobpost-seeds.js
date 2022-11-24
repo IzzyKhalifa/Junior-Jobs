@@ -1,5 +1,3 @@
-const { DataTypes } = require('sequelize');
-const { validate } = require('uuid');
 const { jobPost } = require('../models');
 
 const jobPosts = [
@@ -17,6 +15,6 @@ const jobPosts = [
 
 ];
 
-const seedProducts = () => Product.bulkCreate(jobPosts);
+const seedJobpost = () => jobPost.bulkCreate(jobPosts);
 
-module.exports = seedProducts;
+module.exports = seedJobpost;

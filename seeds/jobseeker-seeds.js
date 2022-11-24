@@ -12,6 +12,6 @@ const jobseekerData = [
 
 ];
 
-const seedProducts = () => Product.bulkCreate(jobseekerData);
+const seedjobseekers = () => jobseeker.bulkCreate(jobseekerData);
 
-module.exports = seedProducts;
+module.exports = seedjobseekers;

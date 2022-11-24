@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { job } = require('models');
+const { job } = require('../../models');
 
 // models\jobpost.js
 // C:\Users\James\Junior-jobs\models\jobpost.js

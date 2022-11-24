@@ -10,7 +10,7 @@ const companiesData = [
     Sector: "Hospitality",
     job_description: "developing the backend for bob so he can make more burgers.",
     company_website: "www.BobsBurgers.com",
-    date_created: "",
+    date_created: "25/11/2022",
     is_active: true
 
   },
@@ -31,6 +31,6 @@ const companiesData = [
 
 ];
 
-const seedProducts = () => Product.bulkCreate(companiesData);
+const seedCompanies = () => companies.bulkCreate(companiesData);
 
-module.exports = seedProducts;
+module.exports = seedCompanies;
