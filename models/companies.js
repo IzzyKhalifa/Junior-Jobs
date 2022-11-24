@@ -1,7 +1,7 @@
 const { Model, DataTypes} = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Company extends Model {}
+class Company extends Model{}
 
 Company.init(
     {
@@ -21,11 +21,13 @@ Company.init(
         company_name: {
             type: DataTypes.STRING,
             allowNull: false,
+            defaultValue: "",
         },
 
         profile_description: {
             type: DataTypes.STRING,
             allowNull: false,
+            defaultValue: "",
         },
         business_stream_id: {
             type: DataTypes.STRING,
@@ -33,7 +35,6 @@ Company.init(
         },
         establishment_date: {
             type: DataTypes.DATEONLY,
-
         },
 
 
@@ -47,4 +48,4 @@ Company.init(
     }
 )
 
-
+module.exports = Company;

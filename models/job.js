@@ -1,9 +1,9 @@
 const { Model, DataTypes} = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Jobs extends Model {}
+class Job extends Model {}
 
-Jobs.init(
+Job.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -16,15 +16,18 @@ Jobs.init(
         Company_name: {
             type: DataTypes.STRING,
             allowNull: false,
+            defaultValue: "",
         },
 
         City: {
             type: DataTypes.STRING,
             allowNull: false,
+            defaultValue: "",
         },
         State: {
             type: DataTypes.STRING,
             allowNull: false,
+            defaultValue: "",
            
         },
         date_created: {
@@ -58,4 +61,6 @@ Jobs.init(
         modelName: 'jobs',
     }
 )
+
+module.exports = Job;
 

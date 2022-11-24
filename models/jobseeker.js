@@ -43,3 +43,5 @@ JobSeeker.init(
         }
 
 )
+
+module.exports = JobSeeker;
