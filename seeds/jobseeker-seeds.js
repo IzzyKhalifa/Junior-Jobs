@@ -1,4 +1,5 @@
-const { Jobseeker } = require('../models');
+const { JobSeeker } = require('../models');
+
 
 const jobseekerData = [
   {
@@ -12,6 +13,7 @@ const jobseekerData = [
 
 ];
 
-const seedjobseekers = () => Jobseeker.bulkCreate(jobseekerData);
+const seedjobseekers = () => JobSeeker.bulkCreate(jobseekerData);
+
 
 module.exports = seedjobseekers;

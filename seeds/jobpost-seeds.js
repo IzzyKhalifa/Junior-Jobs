@@ -3,12 +3,58 @@ const { Job } = require('../models');
 const jobPosts = [
 
     {
-        company_name: 'BobsBurgers',
+        Company_name: 'BobsBurgers',
         date_created: 21112022,
-        is_active: true,
-        job_description: "xxxxxxxxxxxxxxx",
-        company_contact:'bob@BobsBurgers.com'
+        city: "Melbourne",
+        State: "QLD",
+        Sector: "Hospitality",
+        job_description: "developing the backend for bob so he can make more burgers.",
+        company_website:'bob@BobsBurgers.com',
+        is_active: true
+      },
 
+      {
+        Company_name: 'BobsBurgers',
+        date_created: 21112022,
+        city: "Melbourne",
+        State: "QLD",
+        Sector: "Hospitality",
+        job_description: "developing the backend for bob so he can make more burgers.",
+        company_website:'bob@BobsBurgers.com',
+        is_active: true
+      },
+
+      {
+        Company_name: 'BobsBurgers',
+        date_created: 21112022,
+        city: "Melbourne",
+        State: "QLD",
+        Sector: "Hospitality",
+        job_description: "developing the backend for bob so he can make more burgers.",
+        company_website:'bob@BobsBurgers.com',
+        is_active: true
+      },
+
+      {
+        Company_name: 'BobsBurgers',
+        date_created: 21112022,
+        city: "Melbourne",
+        State: "QLD",
+        Sector: "Hospitality",
+        job_description: "developing the backend for bob so he can make more burgers.",
+        company_website:'bob@BobsBurgers.com',
+        is_active: true
+      },
+
+      {
+        Company_name: 'BobsBurgers',
+        date_created: 21112022,
+        city: "Melbourne",
+        State: "QLD",
+        Sector: "Hospitality",
+        job_description: "developing the backend for bob so he can make more burgers.",
+        company_website:'bob@BobsBurgers.com',
+        is_active: true
       },
   
 

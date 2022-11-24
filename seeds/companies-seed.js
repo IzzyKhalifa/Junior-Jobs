@@ -4,7 +4,7 @@ const companiesData = [
   
   {
     
-    Company_name: "BobsBurgers",
+    Company_name: 'BobsBurgers',
     Location: "Brisbane",
     State: "QLD",
     Sector: "Hospitality",
