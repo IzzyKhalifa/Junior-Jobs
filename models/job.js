@@ -58,7 +58,7 @@ Job.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'jobs',
+        modelName: 'Job',
     }
 )
 

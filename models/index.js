@@ -1,7 +1,7 @@
 const User = require('./User');
 const Company = require('./companies');
 const Job = require('./job');
-const Jobseeker = require('./jobseeker')
+const JobSeeker = require('./jobseeker')
 
 
-module.exports = { User, Company, Job, Jobseeker};
+module.exports = { User, Company, Job, JobSeeker};

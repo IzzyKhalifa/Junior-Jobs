@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@types/express-handlebars": "^6.0.0"
+    "@types/express-handlebars": "^6.0.0",
+    "nodemon": "^2.0.20"
   }
 }
