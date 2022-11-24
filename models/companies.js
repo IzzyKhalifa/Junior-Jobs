@@ -10,6 +10,7 @@ Company.init(
             allowNull: false,
             autoIncrement: true,
             primaryKey: true
+
         },
 
         job_number: {
