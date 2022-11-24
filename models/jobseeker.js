@@ -38,7 +38,7 @@ JobSeeker.init(
             timestamps: false,
             freezeTableName: true,
             underscored: true,
-            modelName: 'jobseeker',
+            modelName: 'Jobseeker',
         }
 
 )
