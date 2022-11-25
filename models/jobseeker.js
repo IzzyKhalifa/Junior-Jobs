@@ -15,19 +15,19 @@ JobSeeker.init(
       type: DataTypes.STRING,
     },
 
-    last_name: {
+    Email: {
       type: DataTypes.STRING,
     },
 
-    Certificate: {
+    Phone_Number: {
       type: DataTypes.STRING,
     },
 
-    linkedin: {
+    Website: {
       type: DataTypes.STRING,
     },
 
-    personal_Website: {
+    Github: {
       type: DataTypes.STRING,
     },
   },
