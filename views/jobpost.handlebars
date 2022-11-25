@@ -1,11 +1,13 @@
-{{#each jobposts as |jobpost|}}
+{{#each Jobs as |Job|}}
   <div class="row align-center mb-5">
     <div class="col-md-6">
-      <h2>{{jobpost.company_name}}</h2>
+      <h2>{{Job.company_name}}</h2>
     </div>
     <div class="col-md-6">
-      <p>{{jobpost.job_description}}</p>
-      <p>{{jobpost.date_created}}</p>
+      <p>{{Job.job_description}}</p>
+      <a href={{Job.company_website}}> Company Website </a>
+      <p>{{Job.date_created}}</p>
+      <button class="btn btn-primary" type="submit">Apply</button>
     </div>
   </div>
 {{/each}}
