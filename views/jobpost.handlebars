@@ -1,11 +1,11 @@
-{{#each jobposts as |jobpost| }}
-<div class="row align-center mb-5">
-  <div class="col-md-6">
-    <h2>{{jobpost.company_name}}</h2>
+{{#each jobposts as |jobpost|}}
+  <div class="row align-center mb-5">
+    <div class="col-md-6">
+      <h2>{{jobpost.company_name}}</h2>
+    </div>
+    <div class="col-md-6">
+      <p>{{jobpost.job_description}}</p>
+      <p>{{jobpost.date_created}}</p>
+    </div>
   </div>
-  <div class="col-md-6">
-    <p>{{jobpost.job_description}}</p>
-    <p>{{jobpost.date_created}}</p>
-  </div>
-</div>
 {{/each}}

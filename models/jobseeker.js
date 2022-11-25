@@ -1,47 +1,43 @@
-const { Model, DataTypes} = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class JobSeeker extends Model {}
 
 JobSeeker.init(
-    {
-
-        id: {
-            type: DataTypes.INTEGER,
-            autoIncrement: true,
-            primaryKey: true,
-        },
-
-        first_name: {
-            type: DataTypes.STRING
-        },
-
-        last_name: {
-            type: DataTypes.STRING
-        },
-
-        Certificate: {
-            type: DataTypes.STRING
-        },
-
-        linkedin: {
-            type: DataTypes.STRING
-        },
-
-        personal_Website: {
-            type: DataTypes.STRING
-        },
-
-
+  {
+    id: {
+      type: DataTypes.INTEGER,
+      autoIncrement: true,
+      primaryKey: true,
     },
-        {
-            sequelize,
-            timestamps: false,
-            freezeTableName: true,
-            underscored: true,
-            modelName: 'Jobseeker',
-        }
 
-)
+    first_name: {
+      type: DataTypes.STRING,
+    },
+
+    last_name: {
+      type: DataTypes.STRING,
+    },
+
+    Certificate: {
+      type: DataTypes.STRING,
+    },
+
+    linkedin: {
+      type: DataTypes.STRING,
+    },
+
+    personal_Website: {
+      type: DataTypes.STRING,
+    },
+  },
+  {
+    sequelize,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName: "Jobseeker",
+  }
+);
 
 module.exports = JobSeeker;
