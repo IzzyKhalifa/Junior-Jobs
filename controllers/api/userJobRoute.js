@@ -11,7 +11,7 @@ router.get("/", async (req, res) => {
       res.json(err)
     });
     const job = jobData.map((job) => job.get({ plain: true}));
-    res.render('all', { job });
+    res.render('all', { job });!
   //   res.status(200).json(jobData);
   // } catch (err) {
   //   res.status(500).json(err);
