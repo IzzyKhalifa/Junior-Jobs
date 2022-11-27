@@ -7,12 +7,22 @@ const { Job } = require("../../models");
 // GET all jobs
 router.get("/", async (req, res) => {
   try {
-    const jobData = await Job.findAll();
-    res.status(200).json(jobData);
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
+    const jobData = await Job.findAll().catch((err) => {
+      res.json(err)
+    });
+    const job = jobData.map((job) => job.get({ plain: true}));
+    res.render('all', { job });
+  //   res.status(200).json(jobData);
+  // } catch (err) {
+  //   res.status(500).json(err);
+} catch (err) {
+  console.log(err);
+  res.status(500).json(err);
+}
+})
+
+
+
 
 // GET one job
 router.get("/:id", async (req, res) => {
