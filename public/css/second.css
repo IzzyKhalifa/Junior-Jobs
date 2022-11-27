@@ -1,0 +1,130 @@
+html,
+body {
+  min-height: 100%;
+}
+body,
+div,
+form,
+input,
+select,
+p {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+.required {
+  color: red;
+}
+h2 {
+    position: absolute;
+    margin: 0;
+    font-size: 30px;
+    color: black;
+    left: 10rem;
+    top: 1rem;
+}
+.header-color{
+  color: red;
+  font-size: 2.5rem;
+}
+.post-jobs {
+    position: absolute;
+    margin: 0;
+    font-size: 30px;
+    left: 10rem;
+    top: 3rem;
+}
+p {
+  position: absolute;
+  top: .3rem;
+}
+.item {
+  position: absolute;
+  top: 2rem;
+}
+
+p {
+  position: absolute;
+  bottom: 3rem;
+  font-size: 20px;
+  color: black;
+}
+input[type=text]:focus {
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding:8px;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+input[type=text]:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.second-item {
+  position: relative;
+  top: 1rem;
+}
+
+.second-header {
+  position: relative;
+  top: 8.5rem;
+}
+.second-title {
+  font-size: 20px;
+  color: black;
+}
+h6 {
+  position: relative;
+  bottom: 1rem;
+  font-size: 10px;
+}
+.checkbox-options{
+  position: relative;
+  bottom: 2rem;
+}
+.third-header {
+  position: relative;
+  top: 7.5rem;
+}
+.third-title {
+  font-size: 20px;
+  color: black;
+}
+.checkbox-options2{
+  position: relative;
+  bottom: 2rem;
+}
+
+.fourth-header {
+  position: relative;
+  top: 7rem;
+}
+.fourth-title {
+  font-size: 20px;
+  color: black;
+}
+.checkbox-options3{
+  position: relative;
+  bottom: 2rem;
+}
+.btn-next {
+  position: relative;
+  top: 6rem;
+}
+button {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  font-size: 16px;
+  font-weight: 700;
+  color: aliceblue;
+  cursor: pointer;
+}
