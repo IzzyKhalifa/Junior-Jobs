@@ -1,7 +1,12 @@
 const { Model, DataTypes } = require("sequelize");
+const bcrypt = require("bcrypt");
 const sequelize = require("../config/connection");
 
-class JobSeeker extends Model {}
+class JobSeeker extends Model {
+  checkPassword(loginPw) {
+    return bcrypt.compareSync(loginPw, this.password);
+  }
+}
 
 JobSeeker.init(
   {
@@ -29,6 +34,13 @@ JobSeeker.init(
 
     github: {
       type: DataTypes.STRING,
+    },
+    password: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        len: [8],
+      },
     },
   },
   {

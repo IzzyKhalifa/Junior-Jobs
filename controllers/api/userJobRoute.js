@@ -22,6 +22,10 @@ router.get("/addjob", async (req, res) => {
   res.render("postjobs");
 });
 
+router.get("/login", async (req, res) => {
+  res.render("login", { stylesheetName: `second.css` });
+});
+
 // GET one job
 router.get("/:id", async (req, res) => {
   try {
