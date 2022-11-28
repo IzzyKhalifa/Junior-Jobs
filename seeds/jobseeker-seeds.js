@@ -3,7 +3,7 @@ const { JobSeeker } = require("../models");
 const jobseekerData = [
   {
     first_name: "vladimir",
-    email: "email@fuckyou.com",
+    email: "email@gmail.com",
     phone_number: "09437928463",
     last_name: "putin",
     github: "KGB",
