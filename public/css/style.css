@@ -18,8 +18,7 @@ p {
 }
 .mainHead {
   width: 100vw;
-  display: flex;
-  justify-content: center;
+  text-align-last: end;
   padding: 60px;
   background: #13293d;
   color: #fff;
