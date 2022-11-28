@@ -13,8 +13,6 @@ The project we decided to do was a job portal for graduates to be able to get co
 
 
 
-
-
 ## ACCEPTANCE CRITERIA
 
 - Use Node.js and Express.js to create a RESTful API.
