@@ -1,6 +1,7 @@
 <div>
 <header class="mainHead">
         <h1>Junior Jobs</h1>
+        <a href="./addjob"><button><h3>Add a job</h3></button></a>
     </header>
 
 <div class="slide-container swiper">
@@ -20,7 +21,7 @@
           <p class="description">{{Job.state}}</p>
           <p class="description">{{Job.date_created}}</p>
           <a href={{Job.company_website}}>{{Job.company_website}}</a>
-          <a href="./api/apply"><button class="button">apply</button></a>
+          <a href="./apply"><button class="button">apply</button></a>
           {{/each}}
         </div>
         

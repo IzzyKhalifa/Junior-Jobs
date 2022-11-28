@@ -18,28 +18,45 @@ p {
 .required {
   color: red;
 }
-h2 {
-    position: absolute;
-    margin: 0;
-    font-size: 30px;
-    color: black;
-    left: 10rem;
-    top: 1rem;
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.header-color{
+
+.container.container-fluid {
+  width: 92%;
+}
+.mainHead {
+  width: 100vw;
+  text-align-last: end;
+  padding: 90px;
+  background: #13293d;
+  color: #fff;
+}
+h2 {
+  position: absolute;
+  margin: 0;
+  font-size: 30px;
+  color: black;
+  left: 10rem;
+  top: 1rem;
+}
+.header-color {
   color: red;
   font-size: 2.5rem;
 }
 .post-jobs {
-    position: absolute;
-    margin: 0;
-    font-size: 30px;
-    left: 10rem;
-    top: 3rem;
+  position: absolute;
+  margin: 0;
+  font-size: 30px;
+  left: 10rem;
+  top: 3rem;
 }
 p {
   position: absolute;
-  top: .3rem;
+  top: 0.3rem;
 }
 .item {
   position: absolute;
@@ -52,17 +69,17 @@ p {
   font-size: 20px;
   color: black;
 }
-input[type=text]:focus {
+input[type="text"]:focus {
   border: 2px solid #aaa;
   border-radius: 4px;
   margin: 8px 0;
   outline: none;
-  padding:8px;
+  padding: 8px;
   box-sizing: border-box;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   border-color: dodgerblue;
   box-shadow: 0 0 8px 0 dodgerblue;
 }
@@ -84,7 +101,7 @@ h6 {
   bottom: 1rem;
   font-size: 10px;
 }
-.checkbox-options{
+.checkbox-options {
   position: relative;
   bottom: 2rem;
 }
@@ -96,7 +113,7 @@ h6 {
   font-size: 20px;
   color: black;
 }
-.checkbox-options2{
+.checkbox-options2 {
   position: relative;
   bottom: 2rem;
 }
@@ -109,7 +126,7 @@ h6 {
   font-size: 20px;
   color: black;
 }
-.checkbox-options3{
+.checkbox-options3 {
   position: relative;
   bottom: 2rem;
 }

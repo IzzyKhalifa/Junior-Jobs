@@ -1,68 +1,79 @@
-<h2>Post A Job<span class="header-color">.</span></h2>
-<link rel="stylesheet" href="public/css/second.css" />
-<form class="form post-jobs">
+<link rel="stylesheet" href="../public/css/second.css" />
+
+<header class="mainHead">
+  <h1>Junior Jobs</h1>
+</header>
+<a class="btn-block" href="./"><button>Back</button></a>
+<form class="container container-fluid form post-jobs">
   <div class="first-header">
     <div class="job-header">
       <p>Job Details<span class="required">*</span></p>
     </div>
     <div class="item">
-        <div class="first-item">
-          <input type="text" name="name" placeholder="Job Title" required size="50">
-        </div>
-        <div class="second-item">
-            <input type="text" name="name" placeholder="Job Description" required size="50"/>
-        </div>
-      </div>
-  </div>
-    <div class="second-header">
-      <div class="second-title">Salary</div>
-      <h6 class="information">select a range below</h6>
-      <div class="checkbox-options">
-        <input type="checkbox" id="option1" name="option1" value="highest"/>
-        <label for="option1">180,000-220,000</label><br />
-        <input type="checkbox" id="option2" name="option2" value="medium" />
-        <label for="option2">120,000-170,000</label><br />
-        <input type="checkbox" id="option3" name="option3" value="low" />
-        <label for="option3">70,000-110,000</label><br />
-        <input type="checkbox" id="option4" name="option4" value="lowest" />
-        <label for="option3">90,000+</label><br />
-      </div>
-    </div>
-    <div class="third-header">
-      <div class="third-title">Job type</div>
-      <h6 class="information2">select a job type below</h6>
-      <div class="checkbox-options2">
-        <input type="checkbox" id="option4" name="option4" value="fulltime" />
-        <label for="option1">Full Time</label><br />
-        <input type="checkbox" id="option5" name="option5" value="parttime" />
-        <label for="option2">Part Time</label><br />
-        <input type="checkbox" id="option6" name="option6" value="intern" />
-        <label for="option3">Intern</label><br />
-      </div>
-    </div>
-    <div class="fourth-header">
-      <div class="fourth-title">Industry</div>
-      <h6 class="information2">what Industry would this position be in?</h6>
-      <div class="checkbox-options3">
-        <input type="checkbox" id="option7" name="option7" value="it" />
-        <label for="option7">IT/Engineering</label><br />
-        <input type="checkbox" id="option8" name="option8" value="Design" />
-        <label for="option8">Design</label><br />
+      <div class="first-item">
         <input
-          type="checkbox"
-          id="option9"
-          name="option9"
-          value="hospitality"
+          type="text"
+          name="name"
+          placeholder="Job Title"
+          required
+          size="50"
         />
-        <label for="option3">Hospitality</label><br />
-        <input type="checkbox" id="option10" name="option10" value="Media" />
-        <label for="option10">Media</label><br />
-        <input type="checkbox" id="option11" name="option11" value="Finance" />
-        <label for="option3">Finance</label><br />
+      </div>
+      <div class="second-item">
+        <input
+          type="text"
+          name="name"
+          placeholder="Job Description"
+          required
+          size="50"
+        />
       </div>
     </div>
-    <div class="btn-next">
-      <button type="button" href="/">Next</button>
-      </div>
+  </div>
+  <div class="second-header">
+    <div class="second-title">Salary</div>
+    <h6 class="information">select a range below</h6>
+    <div class="checkbox-options">
+      <input type="checkbox" id="option1" name="option1" value="highest" />
+      <label for="option1">180,000-220,000</label><br />
+      <input type="checkbox" id="option2" name="option2" value="medium" />
+      <label for="option2">120,000-170,000</label><br />
+      <input type="checkbox" id="option3" name="option3" value="low" />
+      <label for="option3">70,000-110,000</label><br />
+      <input type="checkbox" id="option4" name="option4" value="lowest" />
+      <label for="option3">90,000+</label><br />
+    </div>
+  </div>
+  <div class="third-header">
+    <div class="third-title">Job type</div>
+    <h6 class="information2">select a job type below</h6>
+    <div class="checkbox-options2">
+      <input type="checkbox" id="option4" name="option4" value="fulltime" />
+      <label for="option1">Full Time</label><br />
+      <input type="checkbox" id="option5" name="option5" value="parttime" />
+      <label for="option2">Part Time</label><br />
+      <input type="checkbox" id="option6" name="option6" value="intern" />
+      <label for="option3">Intern</label><br />
+    </div>
+  </div>
+  <div class="fourth-header">
+    <div class="fourth-title">Industry</div>
+    <h6 class="information2">what Industry would this position be in?</h6>
+    <div class="checkbox-options3">
+      <input type="checkbox" id="option7" name="option7" value="it" />
+      <label for="option7">IT/Engineering</label><br />
+      <input type="checkbox" id="option8" name="option8" value="Design" />
+      <label for="option8">Design</label><br />
+      <input type="checkbox" id="option9" name="option9" value="hospitality" />
+      <label for="option3">Hospitality</label><br />
+      <input type="checkbox" id="option10" name="option10" value="Media" />
+      <label for="option10">Media</label><br />
+      <input type="checkbox" id="option11" name="option11" value="Finance" />
+      <label for="option3">Finance</label><br />
+    </div>
+  </div>
+  <div class="btn-next">
+    <button type="button" href="/">Next</button>
+  </div>
 
 </form>
