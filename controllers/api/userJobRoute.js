@@ -18,6 +18,10 @@ router.get("/apply", async (req, res) => {
   res.render("jobAppForm");
 });
 
+router.get("/addjob", async (req, res) => {
+  res.render("postjobs");
+});
+
 // GET one job
 router.get("/:id", async (req, res) => {
   try {
