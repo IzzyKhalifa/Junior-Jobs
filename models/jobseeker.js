@@ -15,19 +15,19 @@ JobSeeker.init(
       type: DataTypes.STRING,
     },
 
-    Email: {
+    email: {
       type: DataTypes.STRING,
     },
 
-    Phone_Number: {
+    phone_number: {
       type: DataTypes.STRING,
     },
 
-    Website: {
+    website: {
       type: DataTypes.STRING,
     },
 
-    Github: {
+    github: {
       type: DataTypes.STRING,
     },
   },
@@ -36,7 +36,7 @@ JobSeeker.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "Jobseeker",
+    modelName: "jobseeker",
   }
 );
 

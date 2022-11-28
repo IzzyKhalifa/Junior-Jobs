@@ -12,18 +12,23 @@ Job.init(
       primaryKey: true,
     },
 
-    Company_name: {
+    company_name: {
       type: DataTypes.STRING,
       allowNull: false,
       defaultValue: "",
     },
 
-    City: {
+    city: {
       type: DataTypes.STRING,
       allowNull: false,
       defaultValue: "",
     },
-    State: {
+    state: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: "",
+    },
+    sector: {
       type: DataTypes.STRING,
       allowNull: false,
       defaultValue: "",

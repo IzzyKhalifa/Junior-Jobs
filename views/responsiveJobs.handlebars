@@ -1,0 +1,30 @@
+<div class="slide-container swiper">
+
+  <div class="slide-content">
+    <div class="card-wrapper swiper-wrapper">
+      <div class="card swiper-slide">
+
+        <div class="image-content">
+          {{#each Jobs as |Job|}}
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="./images/bobs burgers.png" alt="" class="card-img" />
+            </div>
+          
+        </div>
+
+        <div class="card-content">
+          <h2 class="name">{{Job.company_name}}</h2>
+          <p class="description">{{Job.job_description}}</p>
+          <p class="description">{{Job.City}}</p>
+          <p class="description">{{Job.State}}</p>
+          {{!-- <p class="description">{{Job.establishment_date}}</p> --}}
+          <a href="website">{{Job.company_website}}</a>
+          <button class="button">apply</button>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>

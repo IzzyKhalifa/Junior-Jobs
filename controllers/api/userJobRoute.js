@@ -6,12 +6,12 @@ const { Job } = require("../../models");
 
 // GET all jobs
 router.get("/", async (req, res) => {
-  try {
-    const jobData = await Job.findAll();
-    res.status(200).json(jobData);
-  } catch (err) {
-    res.status(500).json(err);
-  }
+  const jobData = await Job.findAll().catch((err) => {
+    res.json(err);
+  });
+  // res.status(200).json(jobData);
+  const Jobs = jobData.map((Job) => Job.get({ plain: true }));
+  res.render("responsiveJobs", { Jobs });
 });
 
 // GET one job
