@@ -16,6 +16,14 @@ p {
   color: #666;
   line-height: 22px;
 }
+.mainHead {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  background: #13293d;
+  color: #fff;
+}
 h1 {
   position: absolute;
   margin: 0;
@@ -27,11 +35,22 @@ p.top-info {
   margin: 10px 0;
 }
 .testbox {
-  display: flex;
+  width: 100%;
+  max-width: 1120px;
   justify-content: center;
   align-items: center;
   height: inherit;
   padding: 20px;
+}
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container.container-fluid {
+  width: 92%;
 }
 form {
   width: 100%;
@@ -43,8 +62,7 @@ form {
 .banner {
   position: relative;
   height: 210px;
-  background-image: url("/uploads/media/default/0001/02/fb57ab781c34da322c884532bfec751e843e36fc.jpeg");
-  background-size: cover;
+  background-color: #13293d;
   display: flex;
   justify-content: center;
   align-items: center;
