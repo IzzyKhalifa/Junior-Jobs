@@ -1,26 +1,25 @@
 const { Company } = require("../models");
-
 const companiesData = [
   {
-    Company_name: "BobsBurgers",
-    Location: "Brisbane",
-    State: "QLD",
-    Sector: "Hospitality",
-    job_description:
+    company_name: "BobsBurgers",
+    location: "Brisbane",
+    state: "QLD",
+    sector: "Hospitality",
+    company_description:
       "developing the backend for bob so he can make more burgers.",
     company_website: "www.BobsBurgers.com",
-    date_created: "25/11/2022",
+    establishment_date: new Date(2022, 25, 11),
     is_active: true,
   },
 
   {
-    Company_name: "Carlton United brewery",
-    Location: "Melbourne",
-    State: "VIC",
-    Sector: "Hospitality",
-    job_description: "developing the frontend and backend for beer.",
+    company_name: "Carlton United brewery",
+    location: "Melbourne",
+    state: "VIC",
+    sector: "Hospitality",
+    company_description: "developing the frontend and backend for beer.",
     company_website: "www.CBU.com",
-    date_created: "22/11/2022",
+    establishment_date: new Date(2022, 22, 11),
     is_active: true,
   },
 ];
