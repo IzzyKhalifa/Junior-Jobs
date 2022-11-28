@@ -14,6 +14,14 @@ body {
   justify-content: center;
   background-color: #0938cf;
 }
+.mainHead {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  background: #13293d;
+  color: #fff;
+}
 .slide-container {
   max-width: 1120px;
   width: 100%;
@@ -23,10 +31,6 @@ body {
   margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
-}
-.card {
-  border-radius: 25px;
-  background-color: #fff;
 }
 .image-content,
 .card-content {
@@ -39,29 +43,6 @@ body {
   position: relative;
   row-gap: 5px;
   padding: 25px 0;
-}
-.overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #4070f4;
-  border-radius: 25px 25px 0 25px;
-}
-.overlay::before,
-.overlay::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: -40px;
-  height: 40px;
-  width: 40px;
-  background-color: #4070f4;
-}
-.overlay::after {
-  border-radius: 0 25px 0 0;
-  background-color: #fff;
 }
 .card-image {
   position: relative;
@@ -76,6 +57,11 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
+  border: 4px solid #4070f4;
+}
+.card-content {
+  background-color: #cedaf7;
+  border-radius: 30%;
   border: 4px solid #4070f4;
 }
 .name {
