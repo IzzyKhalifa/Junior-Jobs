@@ -18,6 +18,21 @@ Job.init(
       defaultValue: "",
     },
 
+    city: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: "",
+    },
+    state: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: "",
+    },
+    sector: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: "",
+    },
     date_created: {
         type: DataTypes.DATE,
         defaultValue: DataTypes.NOW,
