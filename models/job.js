@@ -12,26 +12,36 @@ Job.init(
       primaryKey: true,
     },
 
-    Company_name: {
+    company_name: {
       type: DataTypes.STRING,
       allowNull: false,
       defaultValue: "",
     },
 
-    City: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      defaultValue: "",
-    },
-    State: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      defaultValue: "",
-    },
     date_created: {
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW,
+        type: DataTypes.DATE,
+        defaultValue: DataTypes.NOW,
+
     },
+
+    city: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: "",
+    },
+
+    state: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: "",
+    },
+
+    sector: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        defaultValue: "",
+    },
+
     job_description: {
       type: DataTypes.STRING,
     },
