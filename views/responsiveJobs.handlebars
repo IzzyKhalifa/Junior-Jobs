@@ -20,7 +20,7 @@
           <p class="description">{{Job.city}}</p>
           <p class="description">{{Job.state}}</p>
           <p class="description">{{Job.date_created}}</p>
-          <a href="website">{{Job.company_website}}</a>
+          <a href={{Job.company_website}}>{{Job.company_website}}</a>
           <a href="./api/apply"><button class="button">apply</button></a>
           {{/each}}
         </div>

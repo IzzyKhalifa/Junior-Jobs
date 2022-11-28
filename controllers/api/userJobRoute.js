@@ -11,7 +11,7 @@ router.get("/", async (req, res) => {
   });
   // res.status(200).json(jobData);
   const Jobs = jobData.map((Job) => Job.get({ plain: true }));
-  res.render("responsiveJobs", { Jobs });
+  res.render("responsiveJobs", { Jobs, stylesheetName: `responsive.css` });
 });
 
 router.get("/apply", async (req, res) => {
