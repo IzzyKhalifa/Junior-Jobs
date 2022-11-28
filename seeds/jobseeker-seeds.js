@@ -8,6 +8,7 @@ const jobseekerData = [
     last_name: "putin",
     github: "KGB",
     website: "Vodka",
+    password: "12345678",
   },
 ];
 
