@@ -17,13 +17,14 @@
         <div class="card-content">
           <h2 class="name">{{Job.company_name}}</h2>
           <p class="description">{{Job.job_description}}</p>
-          <p class="description">{{Job.City}}</p>
-          <p class="description">{{Job.State}}</p>
-          {{!-- <p class="description">{{Job.establishment_date}}</p> --}}
+          <p class="description">{{Job.city}}</p>
+          <p class="description">{{Job.state}}</p>
+          <p class="description">{{Job.date_created}}</p>
           <a href="website">{{Job.company_website}}</a>
-          <button class="button">apply</button>
+          <a href="./api/apply"><button class="button">apply</button></a>
+          {{/each}}
         </div>
-        {{/each}}
+        
       </div>
     </div>
   </div>
