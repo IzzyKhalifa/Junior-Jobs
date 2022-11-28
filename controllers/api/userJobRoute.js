@@ -14,6 +14,10 @@ router.get("/", async (req, res) => {
   res.render("responsiveJobs", { Jobs });
 });
 
+router.get("/apply", async (req, res) => {
+  res.render("jobAppForm");
+});
+
 // GET one job
 router.get("/:id", async (req, res) => {
   try {
