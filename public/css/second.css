@@ -14,6 +14,7 @@ p {
   font-family: Roboto, Arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
+  text-align: -webkit-center;
 }
 .required {
   color: red;
@@ -34,6 +35,9 @@ p {
   padding: 90px;
   background: #13293d;
   color: #fff;
+}
+.form {
+  width: 50%;
 }
 h2 {
   position: absolute;
@@ -137,9 +141,10 @@ h6 {
 button {
   width: 100px;
   padding: 10px;
+  margin: 10px;
   border: none;
   border-radius: 5px;
-  background-color: red;
+  background-color: #1c87c9;
   font-size: 16px;
   font-weight: 700;
   color: aliceblue;
