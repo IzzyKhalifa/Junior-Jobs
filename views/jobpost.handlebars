@@ -1,16 +1,38 @@
-{{#each Jobs as |Job|}}
-  <div class="row align-center mb-5">
-    <div class="col-md-6">
-      <h2>{{Job.company_name}}</h2>
-    </div>
-    <div class="col-md-6">
-      <p>{{job.City}}</p>
-      <p>{{Job.State}}</p>
-      
-      <p>{{Job.job_description}}</p>
 
-      <a href={{Job.date_created}}> Company Website </a>
-      <button class="btn btn-primary" type="submit">Apply</button>
-    </div>
-  </div>
+<div class="slide-container swiper">
+            
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./images/bobs burgers.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                          {{#each Jobs as |Job|}}
+                            <h2 class="name">{{Job.Company_name}}</h2>
+                            <p class="description">{{job.job_description}}</p>
+                            <p class="description">{{job.City}}</p>
+                            <p class="description">{{job.State}}</p>
+                            <p class="description">{{job.date_created}}</p>
+                            <a href="website">{{Job.company_website}}</a>
+                            <button class="button">apply</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                          
+
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
 {{/each}}

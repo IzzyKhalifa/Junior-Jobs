@@ -5,16 +5,16 @@ const { Job } = require("../../models");
 // C:\Users\James\Junior-jobs\models\jobpost.js
 
 // GET all jobs
-router.get("/", async (req, res) => {
+router.get("/jobs", async (req, res) => {
   try {
     const jobData = await Job.findAll().catch((err) => {
       res.json(err)
     });
-    const job = jobData.map((Job) => Job.get({ plain: true}));
-    res.render('jobpost', { Job });
-  //   res.status(200).json(jobData);
-  // } catch (err) {
-  //   res.status(500).json(err);
+    const Job = jobData.map((Job) => Job.get({ plain: true}));
+    res.render('joppost', { Job });
+
+
+
 } catch (err) {
   console.log(err);
   res.status(500).json(err);
