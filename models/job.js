@@ -40,11 +40,14 @@ Job.init(
     job_description: {
       type: DataTypes.STRING,
     },
-
+    salary: {
+      type: DataTypes.INTEGER,
+      defaultValue: 0,
+      allowNull: false,
+    },
     company_website: {
       type: DataTypes.STRING,
     },
-
     is_active: {
       type: DataTypes.BOOLEAN,
     },
