@@ -42,6 +42,7 @@ Job.init(
     },
     salary: {
       type: DataTypes.INTEGER,
+      defaultValue: 0,
       allowNull: false,
     },
     company_website: {
