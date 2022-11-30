@@ -39,6 +39,7 @@ Job.init(
     },
     job_description: {
       type: DataTypes.STRING,
+      allowNull: false,
     },
     salary: {
       type: DataTypes.INTEGER,
