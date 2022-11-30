@@ -11,42 +11,37 @@ As your first opportunity to show employers your collaborative skills and coding
 
 The project we decided to do was a job portal for graduates to be able to get connected to jobs with a specific entry level requirement where there can be coaching and defined scope for the graduate to learn as they go and build up confidence and skill in the industry.
 
-
-
-
-
 ## ACCEPTANCE CRITERIA
 
-- Use Node.js and Express.js to create a RESTful API.
+```
+* Use Node.js and Express.js to create a RESTful API.
 
-- Use Handlebars.js as the template engine.
+* Use Handlebars.js as the template engine.
 
-- Use MySQL and the Sequelize ORM for the database.
+* Use MySQL and the Sequelize ORM for the database.
 
-created database for jobseekers
-created database for jobs to browse
+* Have both GET and POST routes for retrieving and adding new data.
 
-- Have both GET and POST routes for retrieving and adding new data.
+* Use at least one new library, package, or technology that we haven’t discussed.
 
-- Use at least one new library, package, or technology that we haven’t discussed.
+* Have a folder structure that meets the MVC paradigm.
 
-- Have a folder structure that meets the MVC paradigm.
+* Include authentication (express-session and cookies).
 
-- Include authentication (express-session and cookies).
+* Protect API keys and sensitive information with environment variables.
 
-- Protect API keys and sensitive information with environment variables.
+* Be deployed using Heroku (with data).
 
-- Be deployed using Heroku (with data).
+* Have a polished UI.
 
-- Have a polished UI.
+* Be responsive.
 
-- Be responsive.
+* Be interactive (i.e., accept and respond to user input).
 
-- Be interactive (i.e., accept and respond to user input).
+* Meet good-quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
 
-- Meet good-quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
-
-- Have a professional README (with unique name, description, technologies used, screenshot, and link to deployed application).
+* Have a professional README (with unique name, description, technologies used, screenshot, and link to deployed application).
+```
 
 ## Technologies used
 
@@ -65,11 +60,10 @@ created database for jobs to browse
 
 ![image](https://user-images.githubusercontent.com/110278837/204205033-45f7b497-c8e9-4a75-9a6f-0772843a9144.png)
 
-
 ![image](https://user-images.githubusercontent.com/110278837/204205867-37881422-97b5-409f-a1ef-34d32fae08ee.png)
 
 ![job application](https://user-images.githubusercontent.com/110278837/204207343-9cc0d76a-c867-43e5-b5f4-a177777f3651.png)
 
+## Deployed link:
 
-
-## deployed link
+## GitHub repo: https://github.com/IzzyKhalifa/Junior-Jobs
