@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const { JobSeeker } = require("../../models");
 
-router.post("/api", async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     const userData = await JobSeeker.create(req.body);
 
@@ -16,7 +16,14 @@ router.post("/api", async (req, res) => {
   }
 });
 
-router.post("/api/login", async (req, res) => {
+router.get("/", async (req, res) => {
+  const jobSeekerData = await JobSeeker.findAll().catch((err) => {
+    res.json(err);
+  });
+  res.status(200).json(jobSeekerData);
+});
+
+router.post("/login", async (req, res) => {
   try {
     const userData = await JobSeeker.findOne({
       where: { email: req.body.email },
