@@ -1,11 +1,11 @@
 <div>
 <header class="mainHead">
         <h1>Junior Jobs</h1>
-        <a href="/api/addjob"><button><h3>Add a job</h3></button></a>
+        <a href="/addjob"><button><h3>Add a job</h3></button></a>
         {{#if logged_in}}
-        <a href="/api/login"><button><h3>Logout</h3></button></a>
+        <a href="/login"><button><h3>Logout</h3></button></a>
         {{else}}
-        <a href="/api/login"><button><h3>Login</h3></button></a>
+        <a href="/login"><button><h3>Login</h3></button></a>
         {{/if}}
     </header>
 
@@ -26,7 +26,7 @@
           <p class="description">{{Job.state}}</p>
           <p class="description">{{Job.date_created}}</p>
           <a href={{Job.company_website}}>{{Job.company_website}}</a>
-          <a href="/api/apply"><button class="button">apply</button></a>
+          <a href="/apply"><button class="button">apply</button></a>
           {{/each}}
         </div>
         
