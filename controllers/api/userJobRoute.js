@@ -1,9 +1,6 @@
 const router = require("express").Router();
 const { Job } = require("../../models");
 
-// models\jobpost.js
-// C:\Users\James\Junior-jobs\models\jobpost.js
-
 // GET all jobs
 router.get("/", async (req, res) => {
   const jobData = await Job.findAll().catch((err) => {
