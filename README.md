@@ -64,6 +64,6 @@ The project we decided to do was a job portal for graduates to be able to get co
 
 ![job application](https://user-images.githubusercontent.com/110278837/204207343-9cc0d76a-c867-43e5-b5f4-a177777f3651.png)
 
-## Deployed link:
+## Deployed link: https://juniorjobss.herokuapp.com/
 
 ## GitHub repo: https://github.com/IzzyKhalifa/Junior-Jobs
